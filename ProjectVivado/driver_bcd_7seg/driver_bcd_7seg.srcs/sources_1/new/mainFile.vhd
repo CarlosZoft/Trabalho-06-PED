@@ -36,7 +36,7 @@ entity mainFile is
            Bm : in STD_LOGIC_VECTOR (3 downto 0);
            selm : in STD_LOGIC;
            segm : out STD_LOGIC_VECTOR (0 to 6);
-           anodo : out STD_LOGIC_VECTOR (3 downto 0)
+           an : out STD_LOGIC_VECTOR (3 downto 0)
           );
 end mainFile;
 
@@ -53,12 +53,14 @@ end component;
 
 component driver_bcd_7seg
     Port ( entrada : in STD_LOGIC_VECTOR (0 to 3);
-           seg : out STD_LOGIC_VECTOR (0 to 6);
-           an : out STD_LOGIC_VECTOR (0 to 3));
+           seg : out STD_LOGIC_VECTOR (0 to 6));
 end component;
 
-signal Ain : STD_LOGIC_VECTOR(0 to 3);
-signal Bin : STD_LOGIC_VECTOR(0 to 3);
+component logicaSeletora
+    Port (selecao : in STD_LOGIC;
+          saida : out STD_LOGIC_VECTOR(0 to 3));
+end component;
+
 signal Selin : STD_LOGIC;
 signal Sout : STD_LOGIC_VECTOR(0 to 3);
 signal segmentos : STD_LOGIC_VECTOR(0 to 6);
@@ -66,8 +68,12 @@ signal segmentos : STD_LOGIC_VECTOR(0 to 6);
 
 begin
 
-    mux : MUX_Quad_2_entradas port map (A => Ain, B => Bin, sel => Selin, S => Sout);
-    display : driver_bcd_7seg port map (entrada => Sout, seg => segmentos, an => anodo);
+    mux : MUX_Quad_2_entradas port map (A => Am, B => Bm, sel => Selin, S => Sout);
+    
+    logica : logicaSeletora port map (selecao => Selin, saida => an);
+        
+    display : driver_bcd_7seg port map (entrada => Sout, seg => segmentos);
+    
 
 
 end Behavioral;
