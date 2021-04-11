@@ -45,7 +45,8 @@ component mainFile is
           );
 end component;
 
-signal test_in: STD_LOGIC_VECTOR(3 downto 0);
+signal test_inA: STD_LOGIC_VECTOR(3 downto 0);
+signal test_inB: STD_LOGIC_VECTOR(3 downto 0);
 signal test_dentro: STD_LOGIC;
 signal test_fora: STD_LOGIC_VECTOR (0 to 6);
 signal test_out: STD_LOGIC_VECTOR (3 downto 0);
@@ -53,39 +54,66 @@ signal test_out: STD_LOGIC_VECTOR (3 downto 0);
 
 begin
 
-UUT: mainFile port map ( Am=>test_in, Bm=>test_in, selm=>test_dentro, segm=>test_fora, an=>test_out);
+UUT: mainFile port map ( Am=>test_inA, Bm=>test_inB, selm=>test_dentro, segm=>test_fora, an=>test_out);
 
 process
 begin 
-    test_in <= "0000"; -- numero 0
+    test_inA <= "0000"; -- numero 0
+    test_inB <= "0001"; -- numero 1;
+    test_dentro <= '0';
     wait for 10ns;
     
-    test_in <= "0001"; -- numero 1
+    test_inA <= "0000"; -- numero 0
+    test_inB <= "0001"; -- numero 1;
+    test_dentro <= '1';
+    wait for 10ns;
+    --teste 1
+    
+    test_inA <= "0010"; -- numero 2
+    test_inB <= "0011"; -- numero 3;
+    test_dentro <= '0';
     wait for 10ns;
     
-    test_in <= "0010"; -- numero 2
+    test_inA <= "0010"; -- numero 2
+    test_inB <= "0011"; -- numero 3;
+    test_dentro <= '1';
+    wait for 10ns;
+    -- teste 2
+    
+    test_inA <= "0100"; -- numero 4
+    test_inB <= "0101"; -- numero 5;
+    test_dentro <= '0';
     wait for 10ns;
     
-    test_in <= "0011"; -- numero 3
+    test_inA <= "0100"; -- numero 4
+    test_inB <= "0101"; -- numero 5;
+    test_dentro <= '1';
+    wait for 10ns;
+    -- teste 3
+    
+    test_inA <= "0110"; -- numero 6
+    test_inB <= "0111"; -- numero 7;
+    test_dentro <= '0';
     wait for 10ns;
     
-    test_in <= "0100"; -- numero 4
+    test_inA <= "0110"; -- numero 6
+    test_inB <= "0111"; -- numero 7;
+    test_dentro <= '1';
+    wait for 10ns;
+    -- teste 4
+    
+    test_inA <= "1000"; -- numero 8
+    test_inB <= "1001"; -- numero 9;
+    test_dentro <= '0';
     wait for 10ns;
     
-    test_in <= "0101"; -- numero 5
+    test_inA <= "1000"; -- numero 8
+    test_inB <= "1001"; -- numero 9;
+    test_dentro <= '1';
     wait for 10ns;
+    -- teste 5
     
-    test_in <= "0110"; -- numero 6
-    wait for 10ns;
     
-    test_in <= "0111"; -- numero 7
-    wait for 10ns;
-    
-    test_in <= "1000"; -- numero 8
-    wait for 10ns;
-    
-    test_in <= "1001"; -- numero 9
-    wait for 10ns;
     
 end process;
 

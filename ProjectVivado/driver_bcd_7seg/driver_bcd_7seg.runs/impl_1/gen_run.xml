@@ -15,6 +15,7 @@
   <File Type="BITSTR-SYSDEF" Name="driver_bcd_7seg.sysdef"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
   <File Type="BITSTR-LTX" Name="driver_bcd_7seg.ltx"/>
+  <File Type="RCFI_FILE" Name="driver_bcd_7seg.rcfi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="OPT-HWDEF" Name="driver_bcd_7seg.hwdef"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="driver_bcd_7seg_incremental_reuse_pre_placed.rpt"/>
@@ -30,7 +31,6 @@
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="driver_bcd_7seg_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="driver_bcd_7seg_postroute_physopt_bb.dcp"/>
   <File Type="PDI-FILE" Name="driver_bcd_7seg.pdi"/>
-  <File Type="RCFI_FILE" Name="driver_bcd_7seg.rcfi"/>
   <File Type="CFI_FILE" Name="driver_bcd_7seg.cfi"/>
   <File Type="RNPI_FILE" Name="driver_bcd_7seg.rnpi"/>
   <File Type="NPI_FILE" Name="driver_bcd_7seg.npi"/>
