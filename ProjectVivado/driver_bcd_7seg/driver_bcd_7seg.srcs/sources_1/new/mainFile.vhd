@@ -68,12 +68,12 @@ signal segmentos : STD_LOGIC_VECTOR(0 to 6);
 
 begin
 
-    mux : MUX_Quad_2_entradas port map (A => Am, B => Bm, sel => Selin, S => Sout);
+    mux : MUX_Quad_2_entradas port map (A => Am, B => Bm, sel => selm, S => Sout);
     
-   logica : logicaSeletora port map (selecao => Selin, saida => an);
--- logica : logicaSeletora port map (selecao => Sout(0), saida => an); -- para imprimir no display correspondente par ou impar
+   logica : logicaSeletora port map (selecao => selm, saida => an);
+   --logica : logicaSeletora port map (selecao => Sout(0), saida => an); -- para imprimir no display correspondente par ou impar
         
-    display : driver_bcd_7seg port map (entrada => Sout, seg => segmentos);
+    display : driver_bcd_7seg port map (entrada => Sout, seg => segm);
     
 
 
