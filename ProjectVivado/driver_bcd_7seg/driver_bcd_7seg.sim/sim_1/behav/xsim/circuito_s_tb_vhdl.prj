@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../driver_bcd_7seg.srcs/sources_1/new/MUX_Quad_2_entradas.vhd" \
+"../../../../driver_bcd_7seg.srcs/sources_1/new/driver_bcd_7seg.vhd" \
+"../../../../driver_bcd_7seg.srcs/sources_1/new/logicaSeletora.vhd" \
+"../../../../driver_bcd_7seg.srcs/sources_1/new/mainFile.vhd" \
+"../../../../driver_bcd_7seg.srcs/sim_1/new/circuito_s_tb.vhd" \
+
+# Do not sort compile order
+nosort
