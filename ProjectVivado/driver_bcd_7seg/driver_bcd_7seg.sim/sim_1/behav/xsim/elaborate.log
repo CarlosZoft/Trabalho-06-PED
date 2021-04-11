@@ -4,4 +4,15 @@ Running: D:/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 49429de20b5b40e6b
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
-INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.MUX_Quad_2_entradas [mux_quad_2_entradas_default]
+Compiling architecture behavioral of entity xil_defaultlib.logicaSeletora [logicaseletora_default]
+Compiling architecture behavioral of entity xil_defaultlib.driver_bcd_7seg [driver_bcd_7seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.mainFile [mainfile_default]
+Compiling architecture behavioral of entity xil_defaultlib.circuito_s_tb
+Built simulation snapshot circuito_s_tb_behav
