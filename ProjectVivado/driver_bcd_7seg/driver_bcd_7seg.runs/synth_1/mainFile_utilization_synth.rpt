@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date         : Sun Apr 11 14:51:47 2021
+| Date         : Sun Apr 11 16:43:03 2021
 | Host         : DESKTOP-QQD9SO6 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file mainFile_utilization_synth.rpt -pb mainFile_utilization_synth.pb
 | Design       : mainFile
@@ -152,8 +152,7 @@ Table of Contents
 | OBUF     |   11 |                  IO |
 | IBUF     |    9 |                  IO |
 | LUT6     |    7 |                 LUT |
-| LUT3     |    3 |                 LUT |
-| LUT1     |    1 |                 LUT |
+| LUT3     |    4 |                 LUT |
 +----------+------+---------------------+
 
 

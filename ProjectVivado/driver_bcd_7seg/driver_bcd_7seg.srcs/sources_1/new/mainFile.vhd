@@ -70,8 +70,8 @@ begin
 
     mux : MUX_Quad_2_entradas port map (A => Am, B => Bm, sel => selm, S => Sout);
     
-   logica : logicaSeletora port map (selecao => selm, saida => an);
-   --logica : logicaSeletora port map (selecao => Sout(0), saida => an); -- para imprimir no display correspondente par ou impar
+   --logica : logicaSeletora port map (selecao => selm, saida => an);
+   logica : logicaSeletora port map (selecao => Sout(3), saida => an); -- para imprimir no display correspondente par ou impar
         
     display : driver_bcd_7seg port map (entrada => Sout, seg => segm);
     

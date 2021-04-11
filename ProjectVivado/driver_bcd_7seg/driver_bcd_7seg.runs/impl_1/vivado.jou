@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Apr 11 16:45:12 2021
+# Process ID: 4372
+# Current directory: P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.runs/impl_1
+# Command line: vivado.exe -log mainFile.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source mainFile.tcl -notrace
+# Log file: P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.runs/impl_1/mainFile.vdi
+# Journal file: P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source mainFile.tcl -notrace

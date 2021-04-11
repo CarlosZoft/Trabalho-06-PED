@@ -41,8 +41,10 @@ architecture Behavioral of logicaSeletora is
 begin
 
     with selecao select
-        saida <= "0001" when '1',
-                 "0010" when '0',
+        saida <= "0111" when '1',
+                 --"0011" when '1',
+                 "1011" when '0',
+                 --"0011" when '0',
                  "1111" when others;
 
 end Behavioral;

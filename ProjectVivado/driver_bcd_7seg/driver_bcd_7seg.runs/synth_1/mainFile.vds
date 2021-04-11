@@ -2,8 +2,8 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Sun Apr 11 14:51:00 2021
-# Process ID: 7056
+# Start of session at: Sun Apr 11 16:42:31 2021
+# Process ID: 13264
 # Current directory: P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.runs/synth_1
 # Command line: vivado.exe -log mainFile.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mainFile.tcl
 # Log file: P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.runs/synth_1/mainFile.vds
@@ -17,16 +17,16 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 8288
+INFO: [Synth 8-7075] Helper process launched with PID 12920
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1017.445 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1014.422 ; gain = 0.000
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'mainFile' [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/sources_1/new/mainFile.vhd:43]
 INFO: [Synth 8-3491] module 'MUX_Quad_2_entradas' declared at 'P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/sources_1/new/MUX_Quad_2_entradas.vhd:4' bound to instance 'mux' of component 'MUX_Quad_2_entradas' [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/sources_1/new/mainFile.vhd:71]
 INFO: [Synth 8-638] synthesizing module 'MUX_Quad_2_entradas' [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/sources_1/new/MUX_Quad_2_entradas.vhd:11]
 INFO: [Synth 8-226] default block is never used [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/sources_1/new/MUX_Quad_2_entradas.vhd:21]
 INFO: [Synth 8-256] done synthesizing module 'MUX_Quad_2_entradas' (1#1) [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/sources_1/new/MUX_Quad_2_entradas.vhd:11]
-INFO: [Synth 8-3491] module 'logicaSeletora' declared at 'P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/sources_1/new/logicaSeletora.vhd:34' bound to instance 'logica' of component 'logicaSeletora' [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/sources_1/new/mainFile.vhd:73]
+INFO: [Synth 8-3491] module 'logicaSeletora' declared at 'P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/sources_1/new/logicaSeletora.vhd:34' bound to instance 'logica' of component 'logicaSeletora' [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/sources_1/new/mainFile.vhd:74]
 INFO: [Synth 8-638] synthesizing module 'logicaSeletora' [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/sources_1/new/logicaSeletora.vhd:39]
 INFO: [Synth 8-226] default block is never used [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/sources_1/new/logicaSeletora.vhd:44]
 INFO: [Synth 8-256] done synthesizing module 'logicaSeletora' (2#1) [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/sources_1/new/logicaSeletora.vhd:39]
@@ -35,18 +35,18 @@ INFO: [Synth 8-638] synthesizing module 'driver_bcd_7seg' [P:/vivado/Trabalho-06
 INFO: [Synth 8-256] done synthesizing module 'driver_bcd_7seg' (3#1) [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/sources_1/new/driver_bcd_7seg.vhd:40]
 INFO: [Synth 8-256] done synthesizing module 'mainFile' (4#1) [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/sources_1/new/mainFile.vhd:43]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1017.445 ; gain = 0.000
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1014.422 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1017.445 ; gain = 0.000
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1014.422 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1017.445 ; gain = 0.000
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1014.422 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1017.445 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1014.422 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -61,54 +61,6 @@ Resolution: If [get_<value>] was used to populate the object, check to make sure
 WARNING: [Vivado 12-584] No ports matched 'CLK100MHZ'. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:9]
 CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports CLK100MHZ]'. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:9]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-WARNING: [Vivado 12-584] No ports matched 'Am(0)'. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:12]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:12]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'Am(0)'. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:13]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:13]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'Am(1)'. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:14]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:14]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'Am(1)'. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:15]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:15]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'Am(2)'. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:16]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:16]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'Am(2)'. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:17]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:17]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'Am(3)'. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:18]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:18]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'Am(3)'. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:19]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:19]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'Bm(0)'. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:21]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:21]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'Bm(0)'. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:22]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:22]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'Bm(1)'. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:23]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:23]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'Bm(1)'. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:24]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:24]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'Bm(2)'. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:25]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:25]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'Bm(2)'. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:26]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:26]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'Bm(3)'. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:27]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:27]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'Bm(3)'. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:28]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:28]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
 WARNING: [Vivado 12-584] No ports matched 'vauxp6'. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:211]
 CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc:211]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
@@ -162,37 +114,36 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/mainFile_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1017.445 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1014.422 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 1017.445 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1014.422 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 1017.445 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1014.422 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1017.445 ; gain = 0.000
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1014.422 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1017.445 ; gain = 0.000
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1014.422 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1017.445 ; gain = 0.000
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1014.422 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Muxes : 
-	   2 Input    4 Bit        Muxes := 1     
-	   2 Input    2 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 2     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -209,25 +160,25 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 1017.445 ; gain = 0.000
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1014.422 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 1025.504 ; gain = 8.059
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1024.367 ; gain = 9.945
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 1025.582 ; gain = 8.137
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1024.367 ; gain = 9.945
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 1044.676 ; gain = 27.230
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1043.465 ; gain = 29.043
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -245,37 +196,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 1050.445 ; gain = 33.000
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1050.219 ; gain = 35.797
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 1050.445 ; gain = 33.000
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1050.219 ; gain = 35.797
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 1050.445 ; gain = 33.000
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1050.219 ; gain = 35.797
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 1050.445 ; gain = 33.000
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1050.219 ; gain = 35.797
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 1050.445 ; gain = 33.000
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1050.219 ; gain = 35.797
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 1050.445 ; gain = 33.000
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1050.219 ; gain = 35.797
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -291,31 +242,30 @@ Report Cell Usage:
 +------+-----+------+
 |      |Cell |Count |
 +------+-----+------+
-|1     |LUT1 |     1|
-|2     |LUT3 |     3|
-|3     |LUT6 |     7|
-|4     |IBUF |     9|
-|5     |OBUF |    11|
+|1     |LUT3 |     4|
+|2     |LUT6 |     7|
+|3     |IBUF |     9|
+|4     |OBUF |    11|
 +------+-----+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 1050.445 ; gain = 33.000
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1050.219 ; gain = 35.797
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:25 . Memory (MB): peak = 1050.445 ; gain = 33.000
-Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:29 . Memory (MB): peak = 1050.445 ; gain = 33.000
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:20 . Memory (MB): peak = 1050.219 ; gain = 35.797
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1050.219 ; gain = 35.797
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1062.488 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1060.609 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1067.629 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1068.172 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-26 Infos, 35 Warnings, 35 Critical Warnings and 0 Errors encountered.
+26 Infos, 19 Warnings, 19 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:43 . Memory (MB): peak = 1067.629 ; gain = 50.184
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1068.172 ; gain = 53.750
 INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
 INFO: [Common 17-1381] The checkpoint 'P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.runs/synth_1/mainFile.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file mainFile_utilization_synth.rpt -pb mainFile_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sun Apr 11 14:51:47 2021...
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 11 16:43:03 2021...
