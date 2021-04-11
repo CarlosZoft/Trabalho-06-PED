@@ -1,14 +1,14 @@
-
-*** Running vivado
-    with args -log mainFile.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source mainFile.tcl
-
-
-
-****** Vivado v2020.2 (64-bit)
-  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
-  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
-
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Apr 11 14:51:00 2021
+# Process ID: 7056
+# Current directory: P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.runs/synth_1
+# Command line: vivado.exe -log mainFile.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mainFile.tcl
+# Log file: P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.runs/synth_1/mainFile.vds
+# Journal file: P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
 source mainFile.tcl -notrace
 Command: synth_design -top mainFile -part xc7a35tcpg236-1
 Starting synth_design

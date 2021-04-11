@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/carlo/OneDrive/rea de Trabalho/driver_bcd_7seg/driver_bcd_7seg.runs/synth_1/driver_bcd_7seg.tcl"
+  variable script "P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.runs/synth_1/mainFile.tcl"
   variable category "vivado_synth"
 }
 
@@ -76,15 +76,20 @@ create_project -in_memory -part xc7a35tcpg236-1
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir {C:/Users/carlo/OneDrive/rea de Trabalho/driver_bcd_7seg/driver_bcd_7seg.cache/wt} [current_project]
-set_property parent.project_path {C:/Users/carlo/OneDrive/rea de Trabalho/driver_bcd_7seg/driver_bcd_7seg.xpr} [current_project]
+set_property webtalk.parent_dir P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.cache/wt [current_project]
+set_property parent.project_path P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo {c:/Users/carlo/OneDrive/rea de Trabalho/driver_bcd_7seg/driver_bcd_7seg.cache/ip} [current_project]
+set_property ip_output_repo p:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_vhdl -library xil_defaultlib {{C:/Users/carlo/OneDrive/rea de Trabalho/driver_bcd_7seg/driver_bcd_7seg.srcs/sources_1/new/driver_bcd_7seg.vhd}}
+read_vhdl -library xil_defaultlib {
+  P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/sources_1/new/MUX_Quad_2_entradas.vhd
+  P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/sources_1/new/driver_bcd_7seg.vhd
+  P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/sources_1/new/logicaSeletora.vhd
+  P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/sources_1/new/mainFile.vhd
+}
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -94,14 +99,14 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc {{C:/Users/carlo/OneDrive/Área de Trabalho/Basys3_Master.xdc}}
-set_property used_in_implementation false [get_files {{C:/Users/carlo/OneDrive/Área de Trabalho/Basys3_Master.xdc}}]
+read_xdc P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc
+set_property used_in_implementation false [get_files P:/vivado/Trabalho-06-PED/ProjectVivado/driver_bcd_7seg/driver_bcd_7seg.srcs/constrs_1/new/Basys3_Master.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
-synth_design -top driver_bcd_7seg -part xc7a35tcpg236-1
+synth_design -top mainFile -part xc7a35tcpg236-1
 OPTRACE "synth_design" END { }
 if { [get_msg_config -count -severity {CRITICAL WARNING}] > 0 } {
  send_msg_id runtcl-6 info "Synthesis results are not added to the cache due to CRITICAL_WARNING"
@@ -111,10 +116,10 @@ if { [get_msg_config -count -severity {CRITICAL WARNING}] > 0 } {
 OPTRACE "write_checkpoint" START { CHECKPOINT }
 # disable binary constraint mode for synth run checkpoints
 set_param constraints.enableBinaryConstraints false
-write_checkpoint -force -noxdef driver_bcd_7seg.dcp
+write_checkpoint -force -noxdef mainFile.dcp
 OPTRACE "write_checkpoint" END { }
 OPTRACE "synth reports" START { REPORT }
-create_report "synth_1_synth_report_utilization_0" "report_utilization -file driver_bcd_7seg_utilization_synth.rpt -pb driver_bcd_7seg_utilization_synth.pb"
+create_report "synth_1_synth_report_utilization_0" "report_utilization -file mainFile_utilization_synth.rpt -pb mainFile_utilization_synth.pb"
 OPTRACE "synth reports" END { }
 file delete __synthesis_is_running__
 close [open __synthesis_is_complete__ w]
